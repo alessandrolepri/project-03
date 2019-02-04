@@ -10,6 +10,6 @@ app.use(bodyParser.json())
 
 app.use(routes)
 
-mongoose.connect('mongodb://localhost/chicken-shops')
+mongoose.connect(process.env.MONGODB_URI)
 
 app.listen(process.env.PORT, () => console.log(`running on ${process.env.PORT}`))
