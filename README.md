@@ -38,9 +38,6 @@ Live version: https://project-3-alexlepri.herokuapp.com/
 A group project of 4 members [Joshua King](https://github.com/joshuaking06), [Bete Yemane](https://github.com/beteyemane), [Lauren Bell](https://github.com/lozlette).
 The project was managed using Trello and daily stand-ups.
 
-## Our Application - City Spot
-
-A hosted version of this app can be found at (https://github.com/alessandrolepri/project-03)
 
 ### Project Summary
 
@@ -90,7 +87,7 @@ With the backend up and running, we moved onto working on the frontend with Reac
 Work was carried out on branches of the code depository for each feature. This was merged with the Development branch of the code and any merge conflicts were fixed as a group. Features were tested on the Development branch before being merged with the Master branch.
 
 
-# Styling
+## Styling
 
 The layout of the site was created based on Desktop-Design principles. Initial mock-up wire frames were made during the planning phase to show the basic functionality of each page and general layout. These were then worked on in more detail during the styling aspect of the build. Semantic UI framework was used to create the structure of the layout. Further styling was added with SCSS.
 
