@@ -1,7 +1,7 @@
 # General Assembly Project 3: City Spot
 
 Live version: https://project-3-alexlepri.herokuapp.com/
-A hosted version of this app can be found at [Project-3, City Spot](https://github.com/alessandrolepri/project-03)
+
 
 ### Timeframe
 7 Days
@@ -38,12 +38,16 @@ A hosted version of this app can be found at [Project-3, City Spot](https://gith
 A group project of 4 members [Joshua King](https://github.com/joshuaking06), [Bete Yemane](https://github.com/beteyemane), [Lauren Bell](https://github.com/lozlette).
 The project was managed using Trello and daily stand-ups.
 
+## Our Application - City-Spot
 
-## Project Summary
+A hosted version of this app can be found at [Project-3, City Spot](https://github.com/alessandrolepri/project-03)
+
+### Project Summary
 
 ![screenshot 2019-02-23 at 12 33 26](https://user-images.githubusercontent.com/42512889/53286492-5fcde900-3767-11e9-80ca-139ff0cd8fad.png)
 
 City Spot is a web application where users can sign up and post images from their travels. The users can navigate to the city they visited to share their adventures with other travellers.
+
 
 # Users Journey
 
@@ -66,15 +70,13 @@ The user has a profile page which contains their uploaded profile image, bio, a 
 
 ## Process
 
-The development process started with simple wireframes to workout the basic functionality of the site. We then decided what database models and routes would be needed. We started working on the backend api of the site by each making models and controllers for every route. Once the api routes had been made, this was tested by making api requests with Insomnia.
+The development process started with simple wireframes to workout the basic functionality of the site splitting our task in 2 front-end and 2 back-end.
+We then decided what database models and routes would be needed and started working from the backend api of the site by each making models and controllers for every route. Once the api routes had been made, this was tested by making api requests with Insomnia.
 
 With the backend up and running, we moved onto working on the frontend with React.js. Basic components were made for each page and a router was set up in the app.js file. We each took pages and worked on these individually creating the layout and functionality for each page.
 
 Work was carried out on branches of the code depository for each feature. This was merged with the Development branch of the code and any merge conflicts were fixed as a group. Features were tested on the Development branch before being merged with the Master branch.
 
-Tasks were managed and assigned through the task manager Trello. We performed daily stand-ups to keep track of progress.
-
-![screenshot 2019-02-23 at 12 50 05](https://user-images.githubusercontent.com/42512889/53286643-90af1d80-3769-11e9-839f-d6f48ef7def6.png)
 
 
 
