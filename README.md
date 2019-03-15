@@ -38,9 +38,7 @@ Live version: https://project-3-alexlepri.herokuapp.com/
 A group project of 4 members [Joshua King](https://github.com/joshuaking06), [Bete Yemane](https://github.com/beteyemane), [Lauren Bell](https://github.com/lozlette).
 The project was managed using Trello and daily stand-ups.
 
-## Our Application - City Spot
 
-A hosted version of this app can be found at (https://github.com/alessandrolepri/project-03)
 
 ### Project Summary
 
