@@ -77,6 +77,8 @@ We also wanted to implement the authentication journey with the "reset password"
 
 ![Screenshot 2019-03-15 at 14 46 39](https://user-images.githubusercontent.com/42512889/54439691-37675800-4731-11e9-80fb-f4556b7a4d14.png)
 
+Any users can add new city which are managed by administration account but they can post, leave comments and interact with the traveller community.
+
 
 ## Process
 
@@ -88,40 +90,15 @@ With the backend up and running, we moved onto working on the frontend with Reac
 Work was carried out on branches of the code depository for each feature. This was merged with the Development branch of the code and any merge conflicts were fixed as a group. Features were tested on the Development branch before being merged with the Master branch.
 
 
-
-
-<!-- # Backend setup
-
-The started on the backend by creating three models: City, Continent, and User.
-
--routes
--error handling
--testing
--register and login
--external API requests -->
-
-# Frontend setup
-
--setting up components and pages
--setting up forms
--connecting API requests to the front end.
-
 # Styling
 
--semantic UI
--CSS
+The layout of the site was created based on Desktop-Design principles. Initial mock-up wire frames were made during the planning phase to show the basic functionality of each page and general layout. These were then worked on in more detail during the styling aspect of the build. Semantic UI framework was used to create the structure of the layout. Further styling was added with SCSS.
 
-# Features
 
--likes
--comment
--posts
--email system
--view post by likes(popular post page)
 
 ## Individual inputs / wins
-Much of the project's basic structure was created as a group effort through pair coding. Once the main structure was in place individual features were built out by each project member. The following items were some features for which I took the lead:
 
+Much of the project's basic structure was created as a group effort through individual tasks. Once the main structure was in place individual features were built out by each project member. The following items were some features for which I took the lead:
 
 * Creating in the backend the Security Route, Register, Login, Auth, Mailer, errorHandler, reset password
 * Managed frontend and backend for Authentication form
@@ -129,22 +106,22 @@ Much of the project's basic structure was created as a group effort through pair
 * Creating the Seeds file.
 * Managed to have a verify account once registered via email and also a reset password link sent out to the email provided if already in our database
 
+
 ### Challenges and Wins
 This was the first group project I did while at General Assembly. This introduced new challenges such as the potential to create conflicts when merging code and also maintaining a consistent project vision. We minimised merge conflicts by each working on different features and kept track of who was working on each feature through Trello. Any merge conflicts were resolved as a group.
-I found the email system very challenging especially when working with the verification account to be sent to the email address provided while registering and then also the reset password link that generated and random code sent your email address to reset you password.
 
-Challenges:
+I was very proud to manage the confirmation link via email, once signed up for the first time and also managed to tackle the reset password form with the verification link via email as well. I have also contributed to writing the test for the backend side using auth.js
 
--references
--populating
+This was the first group project I did while at General Assembly. This introduced new challenges such as the potential to create conflicts when merging code and also maintaining a consistent project vision. We minimised merge conflicts by each working on different features and kept track of who was working on each feature through Trello. Any merge conflicts were resolved as a group.
 
-Wins:
--bringing in the APIs.
+
 
 ## Future features
 
--admin accounts to add new cities
--user messaging
--friend requests
--weather icons on city page separate event and restaurant pages
--continent page with search bar
+There are currently no admin users and Cities must be set within a seeds file.
+
+If we would have had more time, the idea was to improve the user journey by adding some extra features such as a friends request and the user messaging chat to allow them to have a private conversation.
+
+We would like to add the weather icon in the city page which will be connected to the dark sky Api and having two separate page for event and restaurant
+
+Lastly add the search bar to every single continent page to allow user to find the city faster than scrolling up and down to the page.
