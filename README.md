@@ -38,9 +38,9 @@ Live version: https://project-3-alexlepri.herokuapp.com/
 A group project of 4 members [Joshua King](https://github.com/joshuaking06), [Bete Yemane](https://github.com/beteyemane), [Lauren Bell](https://github.com/lozlette).
 The project was managed using Trello and daily stand-ups.
 
-## Our Application - City-Spot
+## Our Application - City Spot
 
-A hosted version of this app can be found at [Project-3, City Spot](https://github.com/alessandrolepri/project-03)
+A hosted version of this app can be found at (https://github.com/alessandrolepri/project-03)
 
 ### Project Summary
 
@@ -66,6 +66,16 @@ If a user would like to add a post they will have to register and login, and if 
 ![screenshot 2019-02-23 at 12 41 58](https://user-images.githubusercontent.com/42512889/53286553-70cb2a00-3768-11e9-9bcf-8209884e7467.png) ![screenshot 2019-02-23 at 12 42 06](https://user-images.githubusercontent.com/42512889/53286556-71fc5700-3768-11e9-9590-ee7f874260fb.png)
 
 The user has a profile page which contains their uploaded profile image, bio, a cover photo and their posts. They are also able to edit their bio and cover photo image.
+
+To complete the authentication journey we have decided to integrated a security path for all new users. After registered for the first time a verification email will be sent to your address to very your account.
+
+![Screenshot 2019-03-15 at 14 39 28](https://user-images.githubusercontent.com/42512889/54439178-34b83300-4730-11e9-9707-dcf4d1e61928.png)
+
+We also wanted to implement the authentication journey with the "reset password" path. The user have to provide the email address used when signed up and will receive an email with the link to validate your account and then redirect to the "new password" page.
+
+![Screenshot 2019-03-15 at 14 44 38](https://user-images.githubusercontent.com/42512889/54439533-e22b4680-4730-11e9-9ebe-21e40dd7c425.png)
+
+![Screenshot 2019-03-15 at 14 46 39](https://user-images.githubusercontent.com/42512889/54439691-37675800-4731-11e9-80fb-f4556b7a4d14.png)
 
 
 ## Process
