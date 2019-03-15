@@ -38,10 +38,6 @@ Live version: https://project-3-alexlepri.herokuapp.com/
 A group project of 4 members [Joshua King](https://github.com/joshuaking06), [Bete Yemane](https://github.com/beteyemane), [Lauren Bell](https://github.com/lozlette).
 The project was managed using Trello and daily stand-ups.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> f0ba2759aa288f8a076b37b8496a8c88a48e9895
 
 ### Project Summary
 
