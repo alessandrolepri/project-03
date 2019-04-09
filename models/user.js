@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
   firstName: { type: String, required: 'Please enter your first name' },
   lastName: { type: String, required: 'Please enter your last name' },
   email: { type: String, required: 'Please enter your email', unique: 'This email has already been registered' },
-  image: { type: String, required: 'Please add an image' },
+  image: { type: String },
   bio: { type: String, minlength: 1, maxlength: 700, required: 'Please add a short description of yourself' },
   password: { type: String, required: 'Please enter a password' },
   continent: { type: mongoose.Schema.ObjectId, ref: 'Continent' },
