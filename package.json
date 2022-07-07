@@ -24,7 +24,7 @@
     "filestack-js": "^1.14.1",
     "filestack-react": "^2.0.0",
     "jsonwebtoken": "^8.4.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongoose": "^5.7.5",
     "mongoose-unique-validator": "^2.0.2",
     "nodemailer": "^5.1.1",
